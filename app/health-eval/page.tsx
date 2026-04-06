@@ -172,7 +172,7 @@ export default function HealthEvalPage() {
                     type={f.type}
                     required={f.required}
                     placeholder={f.placeholder}
-                    value={(form as Record<string, string>)[f.field] as string}
+                    value={(form as unknown as Record<string, string>)[f.field]}
                     onChange={(e) => setForm((p) => ({ ...p, [f.field]: e.target.value }))}
                     style={inputStyle}
                   />
