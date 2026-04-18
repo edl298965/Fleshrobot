@@ -12,7 +12,7 @@ const products = [
   {
     id: 'hbsp',
     sku: '10252Q',
-    price: 183.99,
+    price: 146.95,
     featured: true,
     name: 'Healthy Body Start Pack',
     badge: 'Most Popular — Start Here',
@@ -34,7 +34,7 @@ const supplements = [
   {
     id: 'btt',
     sku: 'USYG100075',
-    price: 86.99,
+    price: 69.95,
     name: 'Beyond Tangy Tangerine 2.0',
     category: 'Foundation Nutrition',
     color: '#fbbf24',
@@ -45,7 +45,7 @@ const supplements = [
   {
     id: 'osteo',
     sku: 'USYG103211',
-    price: 60.99,
+    price: 48.95,
     name: 'Beyond Osteo-FX™',
     category: 'Bone & Joint',
     color: '#60a5fa',
@@ -56,7 +56,7 @@ const supplements = [
   {
     id: 'selenium',
     sku: '20971',
-    price: 38.99,
+    price: 30.95,
     name: 'Ultimate Selenium',
     category: 'Heart & Antioxidant',
     color: '#f87171',
@@ -67,7 +67,7 @@ const supplements = [
   {
     id: 'msm',
     sku: 'USFL000123',
-    price: 54.99,
+    price: 43.95,
     name: 'MSM Ultra',
     category: 'Connective Tissue',
     color: '#34d399',
@@ -78,7 +78,7 @@ const supplements = [
   {
     id: 'daily-classic',
     sku: 'USYG100084',
-    price: 54.99,
+    price: 43.95,
     name: 'Ultimate Daily Classic™',
     category: 'Circulation & Kidneys',
     color: '#a78bfa',
@@ -89,7 +89,7 @@ const supplements = [
   {
     id: 'fucoidz',
     sku: '3005',
-    price: 54.99,
+    price: 43.95,
     name: 'Fucoid Z',
     category: 'Blood Purification',
     color: '#06b6d4',
@@ -100,7 +100,7 @@ const supplements = [
   {
     id: 'sweeteze',
     sku: '21014',
-    price: 36.99,
+    price: 29.95,
     name: 'SweetEZE',
     category: 'Blood Sugar',
     color: '#fbbf24',
@@ -111,7 +111,7 @@ const supplements = [
   {
     id: 'microbiome',
     sku: 'USYG300004',
-    price: 74.99,
+    price: 59.95,
     name: 'Ultimate Microbiome',
     category: 'Gut Health',
     color: '#34d399',
@@ -283,7 +283,7 @@ export default function ShopPage() {
                       fontSize: '0.8rem',
                     }}
                   >
-                    retail
+                    wholesale
                   </span>
                 </div>
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>

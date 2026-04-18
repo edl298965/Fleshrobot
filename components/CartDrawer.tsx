@@ -300,7 +300,7 @@ export default function CartDrawer() {
                   textTransform: 'uppercase',
                 }}
               >
-                Retail Total
+                Wholesale Total
               </span>
               <span
                 style={{
@@ -325,8 +325,8 @@ export default function CartDrawer() {
                 textAlign: 'center',
               }}
             >
-              Secure checkout via Youngevity. Wholesale pricing available
-              after enrollment as a preferred customer.
+              Prices shown are wholesale. Secure checkout powered by
+              Youngevity — ships directly to your door.
             </p>
 
             {/* Checkout CTA */}
